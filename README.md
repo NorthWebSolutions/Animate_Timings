@@ -7,8 +7,9 @@ more info on browser support, and usage: https://www.w3schools.com/cssref/css3_p
 
 
 
-## features
+### features
 If you are using CSS3 Animations in your project, at some point you will need to time when the animation start and end.
+Compatible with: Bootstrap 4 & Animate.css
 
 Delay animation:
 With this ` del-#Second-#TenthsOfaSecond ` you can delay the start of the animation
@@ -18,8 +19,7 @@ With this ` dur-#Second-#TenthsOfaSecond ` you can set the duration for your ani
 
 
 
-## usage
-
+### usage
 example:
 
 1. if you want to delay the start of the animation with 2.3 sec you need to add a new css3 class to your animated item like:
@@ -33,14 +33,13 @@ example:
 ```
 <div class="animated_div del-0-1 dur-3" ></div>
 ```
-
-## setup
+### setup
 implement the /generated_css/animations_timer.css to your HTML head like a regular CSS file
 ```
 <link rel="stylesheet" href="YOUR_PATH_TO_ANIMATIONS_TIMER.CSS">
 ```
 
 
-## requrements
+### requrements
 - a modern browser what can handle animations, and that's all. :)
-Enjoy
+- Enjoy
